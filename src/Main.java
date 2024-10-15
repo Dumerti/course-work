@@ -20,11 +20,17 @@ public class Main {
 
     public static void main(String[] args) {
         initEmployees();
+        System.out.println(" ");
         print();
+        System.out.println(" ");
         System.out.println("Сумма зарплаты сотрудников: " + calculateSalary());
+        System.out.println(" ");
         System.out.println("Сотрудник с минимальной зарплатой: " + findMinSalary());
+        System.out.println(" ");
         System.out.println("Сотрудник с максимальной зарплатой: " + findMaxSalary());
+        System.out.println(" ");
         System.out.println("Средняя зарплата: " + calculateAverageSalary());
+        System.out.println(" ");
         printFullNames();
 
     }
